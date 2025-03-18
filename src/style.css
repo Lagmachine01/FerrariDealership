@@ -1,0 +1,93 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #111;
+}
+
+header {
+    background-color: #d40000;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Lato;
+    font-size: 1.5rem;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: Lato;
+}
+
+#models {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.model-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+h1 {
+  text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: Lato;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: Lato;
+}
+
+.car-card {
+    background-color: #222;
+    padding: 20px;
+    border: 1px solid #d40000;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+#about, #contact {
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Lato;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Lato;
+}
